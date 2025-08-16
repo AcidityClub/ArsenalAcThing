@@ -26,6 +26,7 @@ extra safeguards in place to prevent easy exploitation of the HitPart RemoteEven
 ⦁	Type 1: Detects extremely wrong/suspicious values or behavior in regard to hit registration. For example,
 a sub-check that is this type checks to see if the position of the player on the server-side and the position
 of the client-reported position have deviated significantly.
+
 ⦁	Type 2: Detects less wrong-looking or suspicious-looking values and behavior. False positives are more
 likely to happen to sub-checks of this type. High latency is more of an issue with type-2, but still
 affects type-1 if it is EXTREMELY high.
